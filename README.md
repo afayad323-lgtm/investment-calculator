@@ -1,59 +1,83 @@
-# InvestmentCalculator
+# Angular Investment Calculator
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.7.
+A simple investment calculator built with Angular to estimate the future value of an investment based on the initial investment, annual contribution, expected annual return, and investment duration.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- Enter the initial investment amount.
+- Set the annual investment contribution.
+- Specify the expected annual return.
+- Choose the investment duration in years.
+- Calculate and display projected investment results.
+- View investment growth over time in a results table.
+- Responsive user interface.
 
-```bash
-ng serve
-```
+## Built With
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Angular
+- TypeScript
+- HTML5
+- CSS3
 
-## Code scaffolding
+## Getting Started
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Prerequisites
 
-```bash
-ng generate component component-name
-```
+- Node.js
+- npm
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Installation
 
-```bash
-ng generate --help
-```
+1. Clone the repository:
 
-## Building
+   ```bash
+   git clone https://github.com/afayad323-lgtm/investment-calculator.git
+   ```
 
-To build the project run:
+2. Navigate to the project directory:
 
-```bash
-ng build
-```
+   ```bash
+   cd investment-calculator
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. Install dependencies:
 
-## Running unit tests
+   ```bash
+   npm install
+   ```
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+4. Start the development server:
 
-```bash
-ng test
-```
+   ```bash
+   npm start
+   ```
 
-## Running end-to-end tests
+5. Open the local URL displayed in your terminal.
 
-For end-to-end (e2e) testing, run:
+## What I Learned
 
-```bash
-ng e2e
-```
+This project helped me practice fundamental Angular concepts, including:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- Creating and organizing standalone components.
+- Using property binding and event binding.
+- Working with template-driven forms and `ngModel`.
+- Passing data between components using inputs and custom events.
+- Displaying dynamic data using Angular control flow.
+- Formatting currency values using Angular pipes.
 
-## Additional Resources
+## Future Improvements
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Add input validation and error handling.
+- Improve the investment calculation logic and test different scenarios.
+- Enhance the user interface and accessibility.
+- Deploy the application online.
+
+## Author
+
+**Ahmed Fayad**
+
+- GitHub: [@afayad323-lgtm](https://github.com/afayad323-lgtm)
+
+---
+
+*This project was built as a practical exercise while learning Angular.*
